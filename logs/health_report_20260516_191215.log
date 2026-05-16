@@ -1,0 +1,25 @@
+==========================================
+ SERVER HEALTH AUDIT: Sat May 16 19:12:15 EAT 2026
+==========================================
+
+[1. DISK SPACE USAGE]
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sdd       1007G  1.6G  955G   1% /
+
+[2. MEMORY USAGE]
+               total        used        free      shared  buff/cache   available
+Mem:            4867         476        4359           3         172        4390
+Swap:           2048           0        2048
+
+[3. ACTIVE NETWORK SOCKETS]
+Netid State  Recv-Q Send-Q  Local Address:Port Peer Address:PortProcess
+udp   UNCONN 0      0          127.0.0.54:53        0.0.0.0:*          
+udp   UNCONN 0      0       127.0.0.53%lo:53        0.0.0.0:*          
+udp   UNCONN 0      0      10.255.255.254:53        0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
+udp   UNCONN 0      0           127.0.0.1:323       0.0.0.0:*          
+udp   UNCONN 0      0               [::1]:323          [::]:*          
+udp   UNCONN 0      0               [::1]:323          [::]:*          
+tcp   LISTEN 0      4096       127.0.0.54:53        0.0.0.0:*          
+tcp   LISTEN 0      4096    127.0.0.53%lo:53        0.0.0.0:*          
+tcp   LISTEN 0      1000   10.255.255.254:53        0.0.0.0:*          

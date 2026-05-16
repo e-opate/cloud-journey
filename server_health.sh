@@ -1,5 +1,5 @@
 # Defining the log file with a dynamic timestamp
-LOG_DIR="$HOME/cloud_journey/logs"
+LOG_DIR="$HOME/cloud-journey/logs"
 mkdir -p "$LOG_DIR"
 LOG_FILE="$LOG_DIR/health_report_$(date +%Y%m%d_%H%M%S).log"
 
